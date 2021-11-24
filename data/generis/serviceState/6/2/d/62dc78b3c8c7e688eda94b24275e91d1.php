@@ -1,0 +1,1 @@
+<?php return '{"format":"pack","version":1,"timeLine":{"index":[],"tags":["item-1","item-1#0","assessmentSection-1","testPart-1","lsrwat","item-1#0-1"],"points":[[2,1,32228.330929],[2,2,33184.932763],[2,1,33185.106357],[2,2,33189.428973],[1,1,32706.871651],[1,2,32710.888251]],"epoch":1634515200},"extraTime":0,"extendedTime":0,"consumedExtraTime":0}';

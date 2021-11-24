@@ -1,0 +1,1 @@
+<?php return array('module' => array(0 => 'http://www.tao.lu/Ontologies/TAO.rdf#GlobalManagerRole',1 => 'http://www.tao.lu/Ontologies/TAO.rdf#SysAdminRole',2 => 'http://www.tao.lu/Ontologies/TAO.rdf#TaoManagerRole'),'actions' => array('checkLogin' => array(0 => 'http://www.tao.lu/Ontologies/TAO.rdf#BackOfficeRole')));

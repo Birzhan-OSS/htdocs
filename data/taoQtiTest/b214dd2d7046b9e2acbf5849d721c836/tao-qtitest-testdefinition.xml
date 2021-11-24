@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="hyxose" title="Тест 4" toolName="tao" toolVersion="3.3.0-RC02" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd">
+  <testPart identifier="testPart-1" navigationMode="linear" submissionMode="individual">
+    <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+    <assessmentSection identifier="assessmentSection-2" required="false" fixed="false" title="Section 2" visible="false" keepTogether="true">
+      <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <rubricBlock view="candidate">
+        <div>asdassssss</div>
+      </rubricBlock>
+      <assessmentItemRef identifier="item-2" required="false" fixed="false" href="http://localhost/tao.rdf#i16346996805671331">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+    <assessmentSection identifier="assessmentSection-1" required="true" fixed="false" title="Section 1" visible="true" keepTogether="true">
+      <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-1" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448924606121">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+    <assessmentSection identifier="assessmentSection-3" required="false" fixed="false" title="Section 3" visible="false" keepTogether="true">
+      <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-3" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448924606121">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+  </testPart>
+  <testPart identifier="testPart-2" navigationMode="linear" submissionMode="individual">
+    <assessmentSection identifier="section-1" required="false" fixed="false" title="Section 1" visible="false" keepTogether="true">
+      <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-4" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448898575119">
+        <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+    <assessmentSection identifier="assessmentSection-4" required="false" fixed="false" title="Section 2" visible="false" keepTogether="true">
+      <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-5" required="false" fixed="false" href="http://localhost/tao.rdf#i163055528339721">
+        <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+    <assessmentSection identifier="assessmentSection-5" required="false" fixed="false" title="Section 3" visible="false" keepTogether="true">
+      <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-6" required="false" fixed="false" href="http://localhost/tao.rdf#i16346996805671331">
+        <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+  </testPart>
+</assessmentTest>

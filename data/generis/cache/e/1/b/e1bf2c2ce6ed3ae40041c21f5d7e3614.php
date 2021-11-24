@@ -1,0 +1,1 @@
+<?php return array(0 => 'splash',1 => 'initialize',2 => 'registerService',3 => 'setServiceLocator',4 => 'getServiceLocator',5 => 'setLogger',6 => 'getLogger',7 => 'logEmergency',8 => 'logAlert',9 => 'logCritical',10 => 'logError',11 => 'logWarning',12 => 'logNotice',13 => 'logInfo',14 => 'logDebug');

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="lsrwat" title="Тест 2" toolName="tao" toolVersion="3.3.0-RC02" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd">
+  <timeLimits allowLateSubmission="false"/>
+  <testPart identifier="testPart-1" navigationMode="linear" submissionMode="individual">
+    <itemSessionControl maxAttempts="0" showFeedback="true" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+    <timeLimits allowLateSubmission="false"/>
+    <assessmentSection identifier="assessmentSection-1" required="true" fixed="false" title="Section 1" visible="true" keepTogether="true">
+      <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-1" required="false" fixed="false" href="http://localhost/tao.rdf#i1634543483536837">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-2" required="false" fixed="false" href="http://localhost/tao.rdf#i1634543483536837">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-3" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448898575119">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-4" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448924606121">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-5" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448911706120">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+        <timeLimits allowLateSubmission="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-6" required="false" fixed="false" href="http://localhost/tao.rdf#i16346996805671331">
+        <itemSessionControl maxAttempts="0" showFeedback="true" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+        <timeLimits allowLateSubmission="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-7" required="false" fixed="false" href="http://localhost/tao.rdf#i16346996805671331" category="x-tao-option-reviewScreen">
+        <itemSessionControl maxAttempts="0" showFeedback="true" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+        <timeLimits allowLateSubmission="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-8" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448924606121" category="x-tao-option-reviewScreen">
+        <itemSessionControl maxAttempts="0" showFeedback="true" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+        <timeLimits allowLateSubmission="false"/>
+      </assessmentItemRef>
+      <assessmentItemRef identifier="item-9" required="false" fixed="false" href="http://localhost/tao.rdf#i16345448911706120" category="x-tao-option-reviewScreen">
+        <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+        <timeLimits allowLateSubmission="false"/>
+      </assessmentItemRef>
+    </assessmentSection>
+  </testPart>
+  <outcomeProcessing/>
+</assessmentTest>

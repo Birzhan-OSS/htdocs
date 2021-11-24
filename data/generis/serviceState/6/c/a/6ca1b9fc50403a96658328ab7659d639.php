@@ -1,0 +1,1 @@
+<?php return '{"format":"pack","version":1,"timeLine":{"index":[],"tags":["item-1","item-1#0","assessmentSection-1","testPart-1","vytpuz","item-1#0-1"],"points":[[2,1,39587.116105],[2,2,39615.652792],[2,1,39615.834934],[2,2,39698.459149],[2,1,39698.617703],[2,2,39700.386901],[2,1,39700.54509]],"epoch":1637712000},"extraTime":0,"extendedTime":0,"consumedExtraTime":0}';

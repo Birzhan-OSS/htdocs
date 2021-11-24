@@ -1,0 +1,484 @@
+2021-09-02 04:01:05 [DEBUG] 'Install was started with the given parameters: 
+array (
+  'db_driver' => 'pdo_mysql',
+  'db_host' => 'localhost',
+  'db_name' => 'tao30win',
+  'db_pass' => '',
+  'db_user' => 'root',
+  'install_sent' => '1',
+  'module_host' => 'http://localhost:89/',
+  'module_lang' => 'en-US',
+  'module_mode' => 'debug',
+  'module_name' => 'tao',
+  'module_namespace' => 'http://localhost/tao.rdf',
+  'module_url' => 'http://localhost:89/',
+  'submit' => 'Install',
+  'user_email' => '',
+  'user_firstname' => '',
+  'user_lastname' => '',
+  'user_login' => 'demo',
+  'user_pass' => 'demo',
+  'import_local' => true,
+  'instance_name' => 'tao',
+  'extensions' => NULL,
+  'timezone' => 'UTC',
+  'file_path' => 'C:\\xampp\\htdocs\\data\\',
+  'operated_by_name' => NULL,
+  'operated_by_email' => NULL,
+  'extra_persistences' => 
+  array (
+  ),
+  'vvv' => false,
+  'user_pass1' => 'demo',
+)' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 102
+2021-09-02 04:01:05 [DEBUG] 'TAO is being installed. Please wait...' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 114
+2021-09-02 04:01:05 [INFO] 'Checking install data' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'Starting TAO install' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [DEBUG] 'Extensions to be installed: array (
+  0 => 'taoCe',
+)' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'MathJax JavaScript library not installed. To enable MathML expressions in your QTI items, you need to install the third-party MathJax library.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Version (7.2.15) is higher or equal to 5.4.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'PDO' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'curl' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'zip' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'json' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'spl' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'dom' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'mbstring' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Extension 'fileinfo' is loaded.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'OPcache is installed' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'PHP Configuration Option 'opcache.save_comments' = '1' has an expected value.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'opcache.load_comments is not a configurable option any more for php > 7' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'File system component 'FileSystemComponentCheck_1' in 'C:\xampp\htdocs/config is compliant with expected rights (rw).'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'File system component 'FileSystemComponentCheck_2' in 'C:\xampp\htdocs/tao/views/locales is compliant with expected rights (rw).'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'No information on server found' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'A suitable database driver is available.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [DEBUG] 'Removing old config' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [DEBUG] 'Oatbox was installed!' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:05 [INFO] 'Spawning DbCreator' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'DbCreator spawned' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [INFO] 'Dropped all tables' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [INFO] 'Created tables' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [INFO] 'Installing stored procedures for pdo_mysql from file: C:\xampp\htdocs\tao\install\db\tao_stored_procedures_mysql.sql' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Writing generis config' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'The following constants were written in generis config:
+array (
+  'LOCAL_NAMESPACE' => 'http://localhost/tao.rdf',
+  'GENERIS_INSTANCE_NAME' => 'tao',
+  'GENERIS_SESSION_NAME' => 'tao_LLXGJGfm',
+  'ROOT_PATH' => 'C:\\xampp\\htdocs\\',
+  'FILES_PATH' => 'C:\\xampp\\htdocs\\data\\',
+  'ROOT_URL' => 'http://localhost:89/',
+  'DEFAULT_LANG' => 'en-US',
+  'DEBUG_MODE' => true,
+  'TIME_ZONE' => 'UTC',
+  'DEFAULT_ANONYMOUS_INTERFACE_LANG' => 'en-US',
+)' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [INFO] 'Data from previous install found and will be removed' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'C:\xampp\htdocs\data\generis\cache directory was created!' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Running the extensions bootstrap' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Creating cache persistence..' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Creating generis persistence..' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Creating generis user..' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Adding languages..' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/ar-arb/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/ca/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:06 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/ca-ES-valencia/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/cs-CZ/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/da-DK/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/de-DE/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/el-GR/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/en-US/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/es-ES/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/fa-IR/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/fi-FI/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/fr-CA/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/fr-FR/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/gl/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/hu-HU/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/id-ID/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/is-IS/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/it-IT/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/ja-JP/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/lb-LU/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/lt-LT/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/mn-MN/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/nb-NO/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/nl-BE/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/nl-NL/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/pl-PL/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/pt-BR/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/pt-PT/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/ru-RU/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/sk-SK/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/sv-SE/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/th-TH/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/uk-UA/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/vi-VN/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/zh-CN/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Inserting language description model 'C:\xampp\htdocs\tao\install\utils/../../../tao/locales/zh-TW/lang.rdf'' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:07 [DEBUG] 'Finishing generis install..' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:08 [DEBUG] 'Registering extension generis' C:\xampp\htdocs\generis\common\ext\class.GenerisInstaller.php 66
+2021-09-02 04:01:08 [DEBUG] 'Installing custom script for extension generis' C:\xampp\htdocs\tao\install\class.Installator.php 358
+2021-09-02 04:01:08 [DEBUG] 'Running custom extension script oat\generis\scripts\install\TaskQueue for extension generis' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:08 [DEBUG] 'Running custom extension script oat\generis\scripts\install\SetupUserFactoryService for extension generis' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:08 [DEBUG] 'Extension taoCe needs to be installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoCe' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension tao is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension funcAcl is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoItems is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoBackOffice is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoQtiItem is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension qtiItemPci is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoTests is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoQtiTest is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoDelivery is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoResultServer is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoQtiTestPreviewer is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoOutcomeUi is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoDeliveryRdf is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoGroups is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoTestTaker is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Extension taoOutcomeRds is required but missing, added to install list' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoOutcomeRds' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoTestTaker' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoGroups' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoResultServer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoDelivery' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoTests' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension qtiItemPci' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoQtiItem' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoBackOffice' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension taoItems' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension funcAcl' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [DEBUG] 'Considering extension tao' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:08 [INFO] 'Installing extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:08 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:14 [DEBUG] 'Registering extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:14 [DEBUG] 'Installing custom script for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:14 [DEBUG] 'Running custom extension script C:\xampp\htdocs\tao/scripts/install/addFileUploadSource.php for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:14 [DEBUG] 'Running custom extension script C:\xampp\htdocs\tao/scripts/install/setSimpleAccess.php for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetServiceFileStorage for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetServiceState for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script C:\xampp\htdocs\tao/scripts/install/setJsConfig.php for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script C:\xampp\htdocs\tao/scripts/install/registerEntryPoint.php for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script C:\xampp\htdocs\tao/scripts/install/setLocaleNumbersConfig.php for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\AddLogFs for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\AddTmpFsHandlers for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterValidationRules for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetClientLoggerConfig for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\InstallNotificationTable for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetupMaintenanceService for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\AddArchiveService for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetContainerService for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterResourceWatcherService for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterResourceEvents for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterActionService for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterUserLockoutsEventListeners for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\RegisterTaskQueueServices for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Running custom extension script oat\tao\scripts\install\SetUpQueueTasks for extension tao' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:15 [DEBUG] 'Done installing custom script for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [DEBUG] 'Installing local data for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [DEBUG] 'Done installing local data for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [DEBUG] 'Extended install for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [DEBUG] 'Done extended install for extension tao' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [INFO] 'Extension tao installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoOutcomeRds' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoTestTaker' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoGroups' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [DEBUG] 'Considering extension taoResultServer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:15 [INFO] 'Installing extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:15 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Registering extension taoResultServer' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:16 [DEBUG] 'Installing custom script for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Done installing custom script for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Installing local data for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Done installing local data for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Extended install for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Done extended install for extension taoResultServer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [INFO] 'Extension taoResultServer installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoOutcomeRds' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [INFO] 'Installing extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Registering extension taoOutcomeRds' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:16 [DEBUG] 'Installing custom script for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Running custom extension script oat\taoOutcomeRds\scripts\install\createTables for extension taoOutcomeRds' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:16 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoOutcomeRds/scripts/install/setDefault.php for extension taoOutcomeRds' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:16 [DEBUG] 'Done installing custom script for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Installing local data for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Done installing local data for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Extended install for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Done extended install for extension taoOutcomeRds' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [INFO] 'Extension taoOutcomeRds installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoTestTaker' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoGroups' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [DEBUG] 'Considering extension taoDelivery' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:16 [INFO] 'Installing extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:16 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Registering extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:17 [DEBUG] 'Installing custom script for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoDelivery\scripts\install\registerEntryPoint.php for extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoDelivery\scripts\install\installDeliveryLogout for extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoDelivery\scripts\install\installDeliveryFields for extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoDelivery\scripts\install\GenerateRdsDeliveryExecutionTable for extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoDelivery\scripts\install\RegisterServiceContainer for extension taoDelivery' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Done installing custom script for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Installing local data for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done installing local data for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Extended install for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done extended install for extension taoDelivery' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [INFO] 'Extension taoDelivery installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoTestTaker' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoGroups' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoTests' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension qtiItemPci' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoQtiItem' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoBackOffice' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [INFO] 'Installing extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Registering extension taoBackOffice' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:17 [DEBUG] 'Installing custom script for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoBackOffice/scripts/install/registerEntryPoint.php for extension taoBackOffice' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Done installing custom script for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Installing local data for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done installing local data for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Extended install for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done extended install for extension taoBackOffice' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [INFO] 'Extension taoBackOffice installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoTestTaker' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [INFO] 'Installing extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Registering extension taoTestTaker' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:17 [DEBUG] 'Installing custom script for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoTestTaker\scripts\install\SetupConfig for extension taoTestTaker' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Running custom extension script oat\taoTestTaker\scripts\install\SetupTesttakerCsvImporter for extension taoTestTaker' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:17 [DEBUG] 'Done installing custom script for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Installing local data for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done installing local data for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Extended install for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Done extended install for extension taoTestTaker' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [INFO] 'Extension taoTestTaker installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [DEBUG] 'Considering extension taoGroups' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:17 [INFO] 'Installing extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:17 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Registering extension taoGroups' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:18 [DEBUG] 'Installing custom script for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Done installing custom script for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Installing local data for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Done installing local data for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Extended install for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Done extended install for extension taoGroups' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [INFO] 'Extension taoGroups installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoTests' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension qtiItemPci' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoQtiItem' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [DEBUG] 'Considering extension taoItems' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:18 [INFO] 'Installing extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:18 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Registering extension taoItems' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:20 [DEBUG] 'Installing custom script for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Running custom extension script oat\taoItems\scripts\install\CreateItemDirectory for extension taoItems' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:20 [DEBUG] 'Running custom extension script oat\taoItems\scripts\install\RegisterCategoryService for extension taoItems' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:20 [DEBUG] 'Done installing custom script for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Installing local data for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Done installing local data for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Extended install for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Done extended install for extension taoItems' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [INFO] 'Extension taoItems installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [DEBUG] 'Considering extension taoTests' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:20 [INFO] 'Installing extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:20 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Registering extension taoTests' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:21 [DEBUG] 'Installing custom script for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Running custom extension script oat\taoTests\scripts\install\RegisterTestPluginService for extension taoTests' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:21 [DEBUG] 'Running custom extension script oat\taoTests\scripts\install\RegisterTestProviderService for extension taoTests' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:21 [DEBUG] 'Done installing custom script for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Installing local data for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Done installing local data for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Extended install for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Done extended install for extension taoTests' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [INFO] 'Extension taoTests installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension qtiItemPci' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [DEBUG] 'Considering extension taoQtiItem' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:21 [INFO] 'Installing extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Registering extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:21 [DEBUG] 'Installing custom script for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:21 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiItem/install/local/setDefaultTheme.php for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiItem/install/local/addPortableContexts.php for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiItem/install/scripts/setQtiRunnerConfig.php for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\install\scripts\addValidationSettings for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\install\scripts\SetDragAndDropConfig for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\SetQtiCreatorConfig for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\ItemEventRegister for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\install\scripts\setXMLParserConfig for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\InitMetadataService for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\SetItemModel for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\RegisterLegacyPortableLibraries for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\SetUpQueueTasks for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\install\RegisterItemCompilerBlacklist for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:22 [DEBUG] 'Done installing custom script for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:22 [DEBUG] 'Installing local data for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:22 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiItem/install/local/addQTIExamples.php for extension taoQtiItem' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 216
+2021-09-02 04:01:28 [DEBUG] 'Done installing local data for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:28 [DEBUG] 'Extended install for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:28 [DEBUG] 'Done extended install for extension taoQtiItem' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:28 [INFO] 'Extension taoQtiItem installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:28 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:28 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:28 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:28 [DEBUG] 'Considering extension taoQtiTest' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:28 [INFO] 'Installing extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:28 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:29 [DEBUG] 'Registering extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:29 [DEBUG] 'Installing custom script for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiTest/scripts/install/addQtiTestFolder.php for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiTest/scripts/install/addQtiTestAcceptableLatency.php for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiTest/scripts/install/addExtraTestRunnerButtons.php for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestRunnerProviders for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestRunnerPlugins for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestMetadataExporter for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\CreateTestSessionFilesystem for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:29 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterQtiFlysystemManager for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestImporters for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\SetupEventListeners for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterCreatorServices for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestCategoryPresetProviderService for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterQtiCategoryPresetProviders for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterSectionPauseService for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\SetSynchronisationService for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\SyncChannelInstaller for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\RegisterTestContainer for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\SetUpQueueTasks for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script oat\taoQtiTest\scripts\install\SetLinearNextItemWarningConfig for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:30 [DEBUG] 'Done installing custom script for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:30 [DEBUG] 'Installing local data for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:30 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoQtiTest/install/local/addQTIExamples.php for extension taoQtiTest' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 216
+2021-09-02 04:01:35 [DEBUG] 'Done installing local data for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:35 [DEBUG] 'Extended install for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:35 [DEBUG] 'Done extended install for extension taoQtiTest' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:35 [INFO] 'Extension taoQtiTest installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:35 [DEBUG] 'Considering extension taoDeliveryRdf' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:35 [INFO] 'Installing extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:35 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Registering extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:38 [DEBUG] 'Installing custom script for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoDeliveryRdf\install\registerAssignment.php for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\install\RegisterDeliveryContainerService for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\scripts\RegisterEvents for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\install\RegisterDeliveryFactoryService for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\scripts\install\OverrideRuntime for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\scripts\install\SetUpQueueTasks for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\scripts\install\RegisterDeliveryAssemblyWrapperService for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoDeliveryRdf\scripts\install\RegisterFileSystem for extension taoDeliveryRdf' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Done installing custom script for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Installing local data for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done installing local data for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Extended install for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done extended install for extension taoDeliveryRdf' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [INFO] 'Extension taoDeliveryRdf installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [DEBUG] 'Considering extension taoOutcomeUi' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [INFO] 'Installing extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Registering extension taoOutcomeUi' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:38 [DEBUG] 'Installing custom script for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoOutcomeUi\scripts\install\RegisterTestPluginService for extension taoOutcomeUi' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoOutcomeUi\scripts\install\SetUpQueueTasks for extension taoOutcomeUi' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoOutcomeUi\scripts\install\SetupSearchService for extension taoOutcomeUi' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoOutcomeUi\scripts\install\RegisterEvent for extension taoOutcomeUi' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Done installing custom script for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Installing local data for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done installing local data for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Extended install for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done extended install for extension taoOutcomeUi' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [INFO] 'Extension taoOutcomeUi installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [DEBUG] 'Considering extension taoQtiTestPreviewer' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [INFO] 'Installing extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Registering extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:38 [DEBUG] 'Installing custom script for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Running custom extension script oat\taoQtiTestPreviewer\scripts\install\RegisterPreviewers for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:38 [DEBUG] 'Done installing custom script for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Installing local data for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done installing local data for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Extended install for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Done extended install for extension taoQtiTestPreviewer' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [INFO] 'Extension taoQtiTestPreviewer installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [DEBUG] 'Considering extension qtiItemPci' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:38 [INFO] 'Installing extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:38 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:39 [DEBUG] 'Registering extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:39 [DEBUG] 'Installing custom script for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciFilesystem for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\taoQtiItem\scripts\SetupPortableElementFileStorage for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciModel for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\SetQtiCreatorConfig for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterClientProvider for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciLiquid for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciLikertScale for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:39 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciMathEntry for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:40 [DEBUG] 'Running custom extension script oat\qtiItemPci\scripts\install\RegisterPciAudioRecording for extension qtiItemPci' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:40 [DEBUG] 'Done installing custom script for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [DEBUG] 'Installing local data for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [DEBUG] 'Done installing local data for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [DEBUG] 'Extended install for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [DEBUG] 'Done extended install for extension qtiItemPci' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [INFO] 'Extension qtiItemPci installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:40 [DEBUG] 'Considering extension funcAcl' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:40 [INFO] 'Installing extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:40 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:41 [DEBUG] 'Registering extension funcAcl' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:41 [DEBUG] 'Installing custom script for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:41 [DEBUG] 'Running custom extension script C:\xampp\htdocs\funcAcl/scripts/install/setFuncAclImpl.php for extension funcAcl' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:53 [DEBUG] 'Done installing custom script for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Installing local data for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Done installing local data for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Extended install for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Done extended install for extension funcAcl' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [INFO] 'Extension funcAcl installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:53 [DEBUG] 'Considering extension taoCe' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:53 [INFO] 'Installing extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Purging cache...' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:53 [DEBUG] 'Registering extension taoCe' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 92
+2021-09-02 04:01:54 [DEBUG] 'Installing custom script for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoCe/scripts/install/setDefaultResultServer.php for extension taoCe' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:54 [DEBUG] 'Running custom extension script C:\xampp\htdocs\taoCe/scripts/install/overrideEntryPoint.php for extension taoCe' C:\xampp\htdocs\generis\common\ext\class.ExtensionInstaller.php 192
+2021-09-02 04:01:54 [DEBUG] 'Done installing custom script for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [DEBUG] 'Installing local data for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [DEBUG] 'Done installing local data for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [DEBUG] 'Extended install for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [DEBUG] 'Done extended install for extension taoCe' C:\xampp\htdocs\generis\helpers\class.InstallHelper.php 109
+2021-09-02 04:01:54 [INFO] 'Extension taoCe installed' C:\xampp\htdocs\tao\helpers\InstallHelper.php 43
+2021-09-02 04:01:54 [DEBUG] 'Installed extensions: tao, taoResultServer, taoOutcomeRds, taoDelivery, taoBackOffice, taoTestTaker, taoGroups, taoItems, taoTests, taoQtiItem, taoQtiTest, taoDeliveryRdf, taoOutcomeUi, taoQtiTestPreviewer, qtiItemPci, funcAcl, taoCe' C:\xampp\htdocs\tao\install\class.Installator.php 582
+2021-09-02 04:01:54 [INFO] 'Generates client side translation bundles' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:59 [INFO] 'Spawning SuperUser demo' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:59 [DEBUG] 'Creating TAO version file' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:59 [DEBUG] 'Registering information about the organization operating the system' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 134
+2021-09-02 04:01:59 [DEBUG] 'Installation successful.' C:\xampp\htdocs\tao\scripts\class.TaoInstall.php 151

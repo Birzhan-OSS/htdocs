@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i1635839509711829" title="тестовый айтэм" label="тестовый айтэм" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="RESPONSE_1" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="RESPONSE_2" cardinality="multiple" baseType="identifier"/>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>0</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="style/custom/tao-user-styles.css" type="text/css" media="all" title=""/>
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="false" maxChoices="0" minChoices="0" orientation="vertical">
+          <prompt>Вопрос 1
+<div> </div></prompt>
+          <simpleChoice identifier="choice_1" fixed="false" showHide="show">choice #1</simpleChoice>
+          <simpleChoice identifier="choice_2" fixed="false" showHide="show">choice #2</simpleChoice>
+          <simpleChoice identifier="choice_3" fixed="false" showHide="show">choice #3</simpleChoice>
+        </choiceInteraction>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE_1" shuffle="false" maxChoices="0" minChoices="0" orientation="vertical">
+          <prompt>Вопрос 2
+<div> </div></prompt>
+          <simpleChoice identifier="choice_4" fixed="false" showHide="show">choice #1</simpleChoice>
+          <simpleChoice identifier="choice_5" fixed="false" showHide="show">choice #2</simpleChoice>
+          <simpleChoice identifier="choice_6" fixed="false" showHide="show">choice #3</simpleChoice>
+        </choiceInteraction>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE_2" shuffle="false" maxChoices="0" minChoices="0" orientation="vertical">
+          <prompt>Вопрос 3
+<div> </div></prompt>
+          <simpleChoice identifier="choice_7" fixed="false" showHide="show">choice #1</simpleChoice>
+          <simpleChoice identifier="choice_8" fixed="false" showHide="show">choice #2</simpleChoice>
+          <simpleChoice identifier="choice_9" fixed="false" showHide="show">choice #3</simpleChoice>
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE"/>
+          <correct identifier="RESPONSE"/>
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <sum>
+            <variable identifier="SCORE"/>
+            <baseValue baseType="integer">1</baseValue>
+          </sum>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE_1"/>
+          <correct identifier="RESPONSE_1"/>
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <sum>
+            <variable identifier="SCORE"/>
+            <baseValue baseType="integer">1</baseValue>
+          </sum>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <responseCondition>
+      <responseIf>
+        <match>
+          <variable identifier="RESPONSE_2"/>
+          <correct identifier="RESPONSE_2"/>
+        </match>
+        <setOutcomeValue identifier="SCORE">
+          <sum>
+            <variable identifier="SCORE"/>
+            <baseValue baseType="integer">1</baseValue>
+          </sum>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+  </responseProcessing>
+</assessmentItem>

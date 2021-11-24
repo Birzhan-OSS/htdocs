@@ -1,0 +1,1 @@
+<?php return '{"client_store_id":"F176A468-D14F-4472-8451-52CFC3332986","events_queue":[]}';

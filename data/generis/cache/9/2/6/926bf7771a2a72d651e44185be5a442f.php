@@ -1,0 +1,1 @@
+<?php return array('module' => array(0 => 'http://www.tao.lu/Ontologies/generis.rdf#qtiItemPciManager',1 => 'http://www.tao.lu/Ontologies/TAO.rdf#DeliveryRole',2 => 'http://www.tao.lu/Ontologies/TAOItem.rdf#ItemsManagerRole',3 => 'http://www.tao.lu/Ontologies/TAOItem.rdf#QTIManagerRole'),'actions' => array());

@@ -1,0 +1,1 @@
+<?php return array(0 => 'index',1 => 'getTest',2 => 'saveTest',3 => 'getIdentifier',4 => 'initialize',5 => 'registerService',6 => 'setServiceLocator',7 => 'getServiceLocator',8 => 'setLogger',9 => 'getLogger',10 => 'logEmergency',11 => 'logAlert',12 => 'logCritical',13 => 'logError',14 => 'logWarning',15 => 'logNotice',16 => 'logInfo',17 => 'logDebug');
